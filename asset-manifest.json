@@ -1,0 +1,1402 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "id": "hero_pan",
+      "stage": "river",
+      "role": "Held pan with real bowl, three riffles and gripping gloves",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/hero_pan.blend",
+      "generator": "tools/model_opening.py",
+      "game_export": "assets/opening/hero_pan.glb",
+      "materials": [
+        "abraded olive polymer rim",
+        "dark rubber",
+        "faded canvas",
+        "ochre canvas glove",
+        "worn olive polymer"
+      ],
+      "texture_paths": [
+        "assets/opening/hero_pan_abraded-olive-polymer-rim-albedo.png",
+        "assets/opening/hero_pan_abraded-olive-polymer-rim-normal.png",
+        "assets/opening/hero_pan_abraded-olive-polymer-rim-roughness.png",
+        "assets/opening/hero_pan_dark-rubber-albedo.png",
+        "assets/opening/hero_pan_dark-rubber-normal.png",
+        "assets/opening/hero_pan_dark-rubber-roughness.png",
+        "assets/opening/hero_pan_faded-canvas-albedo.png",
+        "assets/opening/hero_pan_faded-canvas-normal.png",
+        "assets/opening/hero_pan_faded-canvas-roughness.png",
+        "assets/opening/hero_pan_ochre-canvas-glove-albedo.png",
+        "assets/opening/hero_pan_ochre-canvas-glove-normal.png",
+        "assets/opening/hero_pan_ochre-canvas-glove-roughness.png",
+        "assets/opening/hero_pan_worn-olive-polymer-albedo.png",
+        "assets/opening/hero_pan_worn-olive-polymer-normal.png",
+        "assets/opening/hero_pan_worn-olive-polymer-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "contents": [
+          0,
+          0,
+          0.011
+        ],
+        "left_grip": [
+          -0.16,
+          0,
+          0
+        ],
+        "right_grip": [
+          0.16,
+          0,
+          0
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/qa-campaign23/river-phase-03.png",
+      "engine_verification": "Native bowl/riffles/glove grips reviewed empty and washing/reveal.",
+      "blender_texture_references": [
+        "//../materials/abraded-olive-polymer-rim-albedo.png",
+        "//../materials/abraded-olive-polymer-rim-normal.png",
+        "//../materials/abraded-olive-polymer-rim-roughness.png",
+        "//../materials/dark-rubber-albedo.png",
+        "//../materials/dark-rubber-normal.png",
+        "//../materials/dark-rubber-roughness.png",
+        "//../materials/faded-canvas-albedo.png",
+        "//../materials/faded-canvas-normal.png",
+        "//../materials/faded-canvas-roughness.png",
+        "//../materials/ochre-canvas-glove-albedo.png",
+        "//../materials/ochre-canvas-glove-normal.png",
+        "//../materials/ochre-canvas-glove-roughness.png",
+        "//../materials/worn-olive-polymer-albedo.png",
+        "//../materials/worn-olive-polymer-normal.png",
+        "//../materials/worn-olive-polymer-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/qa-campaign23/river-phase-03.png",
+        "evidence/runs/qa-campaign23/river-phase-05.png"
+      ]
+    },
+    {
+      "id": "shovel",
+      "stage": "river",
+      "role": "Scoop shovel",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/shovel.blend",
+      "generator": "tools/model_opening.py",
+      "game_export": "assets/opening/shovel.glb",
+      "materials": [
+        "brushed steel",
+        "dark rubber",
+        "warm worn ash"
+      ],
+      "texture_paths": [
+        "assets/opening/shovel_brushed-steel-albedo.png",
+        "assets/opening/shovel_brushed-steel-normal.png",
+        "assets/opening/shovel_brushed-steel-roughness.png",
+        "assets/opening/shovel_dark-rubber-albedo.png",
+        "assets/opening/shovel_dark-rubber-normal.png",
+        "assets/opening/shovel_dark-rubber-roughness.png",
+        "assets/opening/shovel_warm-worn-ash-albedo.png",
+        "assets/opening/shovel_warm-worn-ash-normal.png",
+        "assets/opening/shovel_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "blade": [
+          0,
+          -0.13,
+          0
+        ],
+        "grip": [
+          0,
+          0.7,
+          0.15
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/final-views/shovel-scoop.png",
+      "engine_verification": "Native scoop head and part of shaft visible above/beside HUD during actual first scoop; not a full-body digging animation.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/dark-rubber-albedo.png",
+        "//../materials/dark-rubber-normal.png",
+        "//../materials/dark-rubber-roughness.png",
+        "//../materials/warm-worn-ash-albedo.png",
+        "//../materials/warm-worn-ash-normal.png",
+        "//../materials/warm-worn-ash-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/final-views/shovel-scoop.png"
+      ]
+    },
+    {
+      "id": "vial",
+      "stage": "river",
+      "role": "Bench collection vial",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/vial.blend",
+      "generator": "tools/model_opening.py",
+      "game_export": "assets/opening/vial.glb",
+      "materials": [
+        "dark rubber",
+        "vial pale blue glass"
+      ],
+      "texture_paths": [
+        "assets/opening/vial_alluvial-gold-albedo.png",
+        "assets/opening/vial_alluvial-gold-normal.png",
+        "assets/opening/vial_alluvial-gold-roughness.png",
+        "assets/opening/vial_dark-rubber-albedo.png",
+        "assets/opening/vial_dark-rubber-normal.png",
+        "assets/opening/vial_dark-rubber-roughness.png",
+        "assets/opening/vial_vial-pale-blue-glass-albedo.png",
+        "assets/opening/vial_vial-pale-blue-glass-normal.png",
+        "assets/opening/vial_vial-pale-blue-glass-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "pickup": [
+          0,
+          0,
+          0.05
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/package-visual01/view-00.png",
+      "engine_verification": "Native vial contains stock-driven flakes in completed earned world; fresh start is empty.",
+      "blender_texture_references": [
+        "//../materials/dark-rubber-albedo.png",
+        "//../materials/dark-rubber-normal.png",
+        "//../materials/dark-rubber-roughness.png",
+        "//../materials/vial-pale-blue-glass-albedo.png",
+        "//../materials/vial-pale-blue-glass-normal.png",
+        "//../materials/vial-pale-blue-glass-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/package-visual01/view-00.png"
+      ]
+    },
+    {
+      "id": "bench",
+      "stage": "river",
+      "role": "Camp workbench",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/bench.blend",
+      "generator": "tools/model_opening.py",
+      "game_export": "assets/opening/bench.glb",
+      "materials": [
+        "brushed steel",
+        "warm worn ash"
+      ],
+      "texture_paths": [
+        "assets/opening/bench_brushed-steel-albedo.png",
+        "assets/opening/bench_brushed-steel-normal.png",
+        "assets/opening/bench_brushed-steel-roughness.png",
+        "assets/opening/bench_warm-worn-ash-albedo.png",
+        "assets/opening/bench_warm-worn-ash-normal.png",
+        "assets/opening/bench_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "surface": [
+          0,
+          0,
+          0.83
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/package-visual01/view-00.png",
+      "engine_verification": "Native scale/bench visible; explicit sale UI exercised in fresh campaign.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/warm-worn-ash-albedo.png",
+        "//../materials/warm-worn-ash-normal.png",
+        "//../materials/warm-worn-ash-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/package-visual01/view-00.png",
+        "evidence/runs/qa-campaign23/river-phase-08.png"
+      ]
+    },
+    {
+      "id": "scale",
+      "stage": "river",
+      "role": "Explicit gold weighing and sale point",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/scale.blend",
+      "generator": "tools/model_opening.py",
+      "game_export": "assets/opening/scale.glb",
+      "materials": [
+        "brushed steel",
+        "dark rubber",
+        "worn olive polymer"
+      ],
+      "texture_paths": [
+        "assets/opening/scale_brushed-steel-albedo.png",
+        "assets/opening/scale_brushed-steel-normal.png",
+        "assets/opening/scale_brushed-steel-roughness.png",
+        "assets/opening/scale_dark-rubber-albedo.png",
+        "assets/opening/scale_dark-rubber-normal.png",
+        "assets/opening/scale_dark-rubber-roughness.png",
+        "assets/opening/scale_worn-olive-polymer-albedo.png",
+        "assets/opening/scale_worn-olive-polymer-normal.png",
+        "assets/opening/scale_worn-olive-polymer-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "tray": [
+          0,
+          0,
+          0.22
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/package-visual01/view-00.png",
+      "engine_verification": "Native scale/bench visible; explicit sale UI exercised in fresh campaign.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/dark-rubber-albedo.png",
+        "//../materials/dark-rubber-normal.png",
+        "//../materials/dark-rubber-roughness.png",
+        "//../materials/worn-olive-polymer-albedo.png",
+        "//../materials/worn-olive-polymer-normal.png",
+        "//../materials/worn-olive-polymer-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/package-visual01/view-00.png",
+        "evidence/runs/qa-campaign23/river-phase-08.png"
+      ]
+    },
+    {
+      "id": "board",
+      "stage": "river",
+      "role": "Supply and contract board",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/board.blend",
+      "generator": "tools/model_opening.py",
+      "game_export": "assets/opening/board.glb",
+      "materials": [
+        "faded canvas",
+        "warm worn ash"
+      ],
+      "texture_paths": [
+        "assets/opening/board_faded-canvas-albedo.png",
+        "assets/opening/board_faded-canvas-normal.png",
+        "assets/opening/board_faded-canvas-roughness.png",
+        "assets/opening/board_warm-worn-ash-albedo.png",
+        "assets/opening/board_warm-worn-ash-normal.png",
+        "assets/opening/board_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "interact": [
+          0,
+          -0.1,
+          1.3
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/package-visual01/view-00.png",
+      "engine_verification": "Native camp bench and purchase board, readable prompts; actual purchases exercised.",
+      "blender_texture_references": [
+        "//../materials/faded-canvas-albedo.png",
+        "//../materials/faded-canvas-normal.png",
+        "//../materials/faded-canvas-roughness.png",
+        "//../materials/warm-worn-ash-albedo.png",
+        "//../materials/warm-worn-ash-normal.png",
+        "//../materials/warm-worn-ash-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/package-visual01/view-00.png",
+        "evidence/runs/qa-campaign23/river-phase-12.png"
+      ]
+    },
+    {
+      "id": "classifier",
+      "stage": "river",
+      "role": "Visible removable river gravel classifier upgrade",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/classifier.blend",
+      "generator": "tools/model_opening.py",
+      "game_export": "assets/opening/classifier.glb",
+      "materials": [
+        "brushed steel",
+        "worn olive polymer"
+      ],
+      "texture_paths": [
+        "assets/opening/classifier_brushed-steel-albedo.png",
+        "assets/opening/classifier_brushed-steel-normal.png",
+        "assets/opening/classifier_brushed-steel-roughness.png",
+        "assets/opening/classifier_worn-olive-polymer-albedo.png",
+        "assets/opening/classifier_worn-olive-polymer-normal.png",
+        "assets/opening/classifier_worn-olive-polymer-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "screen": [
+          0,
+          0,
+          0.014
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/package-visual01/view-06.png",
+      "engine_verification": "Native sieve/classifier surfaces; finite fines recovered once through ordinary input.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/worn-olive-polymer-albedo.png",
+        "//../materials/worn-olive-polymer-normal.png",
+        "//../materials/worn-olive-polymer-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/package-visual01/view-06.png",
+        "evidence/runs/package-visual01/view-00.png",
+        "evidence/runs/qa-campaign23/fine-screen-recovery.png"
+      ]
+    },
+    {
+      "id": "sample_tray",
+      "stage": "river",
+      "role": "Three physical containers for uphill prospecting samples",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/sample_tray.blend",
+      "generator": "tools/model_opening.py",
+      "game_export": "assets/opening/sample_tray.glb",
+      "materials": [
+        "brushed steel",
+        "vial pale blue glass"
+      ],
+      "texture_paths": [
+        "assets/opening/sample_tray_brushed-steel-albedo.png",
+        "assets/opening/sample_tray_brushed-steel-normal.png",
+        "assets/opening/sample_tray_brushed-steel-roughness.png",
+        "assets/opening/sample_tray_vial-pale-blue-glass-albedo.png",
+        "assets/opening/sample_tray_vial-pale-blue-glass-normal.png",
+        "assets/opening/sample_tray_vial-pale-blue-glass-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "sample0": [
+          -0.112,
+          0,
+          0.043
+        ],
+        "sample1": [
+          0,
+          0,
+          0.043
+        ],
+        "sample2": [
+          0.112,
+          0,
+          0.043
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/package-visual01/view-00.png",
+      "engine_verification": "Three collected samples visibly occupy tray; sample identities persisted in fresh campaign.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/vial-pale-blue-glass-albedo.png",
+        "//../materials/vial-pale-blue-glass-normal.png",
+        "//../materials/vial-pale-blue-glass-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/package-visual01/view-00.png"
+      ]
+    },
+    {
+      "id": "sieve",
+      "stage": "workshop/ending",
+      "role": "Manual screening station with source batch and fines output",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/sieve.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/sieve.glb",
+      "materials": [
+        "brushed steel",
+        "warm worn ash"
+      ],
+      "texture_paths": [
+        "assets/workshop/sieve_brushed-steel-albedo.png",
+        "assets/workshop/sieve_brushed-steel-normal.png",
+        "assets/workshop/sieve_brushed-steel-roughness.png",
+        "assets/workshop/sieve_warm-worn-ash-albedo.png",
+        "assets/workshop/sieve_warm-worn-ash-normal.png",
+        "assets/workshop/sieve_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "input": [
+          0,
+          0,
+          0.96
+        ],
+        "output": [
+          0,
+          0,
+          0.64
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/package-visual01/view-06.png",
+      "engine_verification": "Native sieve/classifier surfaces; finite fines recovered once through ordinary input.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/warm-worn-ash-albedo.png",
+        "//../materials/warm-worn-ash-normal.png",
+        "//../materials/warm-worn-ash-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/package-visual01/view-06.png",
+        "evidence/runs/package-visual01/view-00.png",
+        "evidence/runs/qa-campaign23/fine-screen-recovery.png"
+      ]
+    },
+    {
+      "id": "furnace",
+      "stage": "workshop/ending",
+      "role": "Small refinery with crucible and visible pour point",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/furnace.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/furnace.glb",
+      "materials": [
+        "brushed steel",
+        "dark rubber",
+        "furnace refractory"
+      ],
+      "texture_paths": [
+        "assets/workshop/furnace_brushed-steel-albedo.png",
+        "assets/workshop/furnace_brushed-steel-normal.png",
+        "assets/workshop/furnace_brushed-steel-roughness.png",
+        "assets/workshop/furnace_dark-rubber-albedo.png",
+        "assets/workshop/furnace_dark-rubber-normal.png",
+        "assets/workshop/furnace_dark-rubber-roughness.png",
+        "assets/workshop/furnace_furnace-refractory-albedo.png",
+        "assets/workshop/furnace_furnace-refractory-normal.png",
+        "assets/workshop/furnace_furnace-refractory-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "pour": [
+          0.18,
+          0,
+          0.77
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/workshop-review3/copper-working.png",
+      "engine_verification": "Native furnace/crucible glow and distinct copper output on unobscured ledge; actual normal job and pickup.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/dark-rubber-albedo.png",
+        "//../materials/dark-rubber-normal.png",
+        "//../materials/dark-rubber-roughness.png",
+        "//../materials/furnace-refractory-albedo.png",
+        "//../materials/furnace-refractory-normal.png",
+        "//../materials/furnace-refractory-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/workshop-review3/copper-working.png",
+        "evidence/runs/workshop-review3/copper-ready.png"
+      ]
+    },
+    {
+      "id": "casting",
+      "stage": "workshop/ending",
+      "role": "Casting bench with replaceable gear mold",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/casting.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/casting.glb",
+      "materials": [
+        "brushed steel",
+        "dark rubber",
+        "warm worn ash"
+      ],
+      "texture_paths": [
+        "assets/workshop/casting_brushed-steel-albedo.png",
+        "assets/workshop/casting_brushed-steel-normal.png",
+        "assets/workshop/casting_brushed-steel-roughness.png",
+        "assets/workshop/casting_dark-rubber-albedo.png",
+        "assets/workshop/casting_dark-rubber-normal.png",
+        "assets/workshop/casting_dark-rubber-roughness.png",
+        "assets/workshop/casting_warm-worn-ash-albedo.png",
+        "assets/workshop/casting_warm-worn-ash-normal.png",
+        "assets/workshop/casting_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "output": [
+          0,
+          0,
+          0.98
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/workshop-review3/gear-working.png",
+      "engine_verification": "Native tilted crucible/pour state and visible cast gear/pendant above mold; ordinary recipe jobs.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/dark-rubber-albedo.png",
+        "//../materials/dark-rubber-normal.png",
+        "//../materials/dark-rubber-roughness.png",
+        "//../materials/warm-worn-ash-albedo.png",
+        "//../materials/warm-worn-ash-normal.png",
+        "//../materials/warm-worn-ash-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/workshop-review3/gear-working.png",
+        "evidence/runs/workshop-review3/gear-ready.png",
+        "evidence/runs/workshop-review3/pendant-ready.png"
+      ]
+    },
+    {
+      "id": "polisher",
+      "stage": "workshop/ending",
+      "role": "Gem finishing wheel",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/polisher.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/polisher.glb",
+      "materials": [
+        "brushed steel",
+        "dark rubber",
+        "worn olive polymer"
+      ],
+      "texture_paths": [
+        "assets/workshop/polisher_brushed-steel-albedo.png",
+        "assets/workshop/polisher_brushed-steel-normal.png",
+        "assets/workshop/polisher_brushed-steel-roughness.png",
+        "assets/workshop/polisher_dark-rubber-albedo.png",
+        "assets/workshop/polisher_dark-rubber-normal.png",
+        "assets/workshop/polisher_dark-rubber-roughness.png",
+        "assets/workshop/polisher_worn-olive-polymer-albedo.png",
+        "assets/workshop/polisher_worn-olive-polymer-normal.png",
+        "assets/workshop/polisher_worn-olive-polymer-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "output": [
+          0,
+          -0.25,
+          0.22
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/workshop-review3/polished-working.png",
+      "engine_verification": "Native rough workpiece and polished output on front rest; retained quartz specimen on ending display.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/dark-rubber-albedo.png",
+        "//../materials/dark-rubber-normal.png",
+        "//../materials/dark-rubber-roughness.png",
+        "//../materials/worn-olive-polymer-albedo.png",
+        "//../materials/worn-olive-polymer-normal.png",
+        "//../materials/worn-olive-polymer-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/workshop-review3/polished-working.png",
+        "evidence/runs/workshop-review3/polished-ready.png",
+        "evidence/runs/package-visual01/view-09.png"
+      ]
+    },
+    {
+      "id": "gear",
+      "stage": "workshop/ending",
+      "role": "Finished bronze gear",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/gear.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/gear.glb",
+      "materials": [
+        "cast bronze"
+      ],
+      "texture_paths": [
+        "assets/workshop/gear_cast-bronze-albedo.png",
+        "assets/workshop/gear_cast-bronze-normal.png",
+        "assets/workshop/gear_cast-bronze-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "pickup": [
+          0,
+          0,
+          0
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/workshop-review3/gear-ready.png",
+      "engine_verification": "All seven distinct product variants reviewed in native ready state, normal recipes and pickup; small pendant retains authored scale.",
+      "blender_texture_references": [
+        "//../materials/cast-bronze-albedo.png",
+        "//../materials/cast-bronze-normal.png",
+        "//../materials/cast-bronze-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/workshop-review3/copper-ready.png",
+        "evidence/runs/workshop-review3/tin-ready.png",
+        "evidence/runs/workshop-review3/bronze-ready.png",
+        "evidence/runs/workshop-review3/refined_gold-ready.png",
+        "evidence/runs/workshop-review3/gear-ready.png",
+        "evidence/runs/workshop-review3/polished-ready.png",
+        "evidence/runs/workshop-review3/pendant-ready.png"
+      ]
+    },
+    {
+      "id": "pendant",
+      "stage": "workshop/ending",
+      "role": "Signature gold and quartz commission",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/pendant.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/pendant.glb",
+      "materials": [
+        "alluvial gold",
+        "polished cloudy quartz"
+      ],
+      "texture_paths": [
+        "assets/workshop/pendant_alluvial-gold-albedo.png",
+        "assets/workshop/pendant_alluvial-gold-normal.png",
+        "assets/workshop/pendant_alluvial-gold-roughness.png",
+        "assets/workshop/pendant_polished-cloudy-quartz-albedo.png",
+        "assets/workshop/pendant_polished-cloudy-quartz-normal.png",
+        "assets/workshop/pendant_polished-cloudy-quartz-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "display": [
+          0,
+          0,
+          0
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/workshop-review3/pendant-ready.png",
+      "engine_verification": "Native retained specimen and pendant ending display; all orders once-paid and completed world reload passed.",
+      "blender_texture_references": [
+        "//../materials/alluvial-gold-albedo.png",
+        "//../materials/alluvial-gold-normal.png",
+        "//../materials/alluvial-gold-roughness.png",
+        "//../materials/polished-cloudy-quartz-albedo.png",
+        "//../materials/polished-cloudy-quartz-normal.png",
+        "//../materials/polished-cloudy-quartz-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/package-visual01/view-09.png",
+        "evidence/runs/qa-campaign23/campaign-complete.png"
+      ]
+    },
+    {
+      "id": "specimen",
+      "stage": "workshop/ending",
+      "role": "Guaranteed exceptional vein specimen for display",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/specimen.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/specimen.glb",
+      "materials": [
+        "polished cloudy quartz"
+      ],
+      "texture_paths": [
+        "assets/workshop/specimen_polished-cloudy-quartz-albedo.png",
+        "assets/workshop/specimen_polished-cloudy-quartz-normal.png",
+        "assets/workshop/specimen_polished-cloudy-quartz-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "display": [
+          0,
+          0,
+          0
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/package-visual01/view-09.png",
+      "engine_verification": "Native retained specimen and pendant ending display; all orders once-paid and completed world reload passed.",
+      "blender_texture_references": [
+        "//../materials/polished-cloudy-quartz-albedo.png",
+        "//../materials/polished-cloudy-quartz-normal.png",
+        "//../materials/polished-cloudy-quartz-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/package-visual01/view-09.png",
+        "evidence/runs/qa-campaign23/campaign-complete.png"
+      ]
+    },
+    {
+      "id": "ingot_copper",
+      "stage": "workshop/ending",
+      "role": "Visible finished copper refinery output",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/ingot_copper.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/ingot_copper.glb",
+      "materials": [
+        "warm copper"
+      ],
+      "texture_paths": [
+        "assets/workshop/ingot_copper_warm-copper-albedo.png",
+        "assets/workshop/ingot_copper_warm-copper-normal.png",
+        "assets/workshop/ingot_copper_warm-copper-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "pickup": [
+          0,
+          0,
+          0.015
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/workshop-review3/copper-ready.png",
+      "engine_verification": "All seven distinct product variants reviewed in native ready state, normal recipes and pickup; small pendant retains authored scale.",
+      "blender_texture_references": [
+        "//../materials/warm-copper-albedo.png",
+        "//../materials/warm-copper-normal.png",
+        "//../materials/warm-copper-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/workshop-review3/copper-ready.png",
+        "evidence/runs/workshop-review3/tin-ready.png",
+        "evidence/runs/workshop-review3/bronze-ready.png",
+        "evidence/runs/workshop-review3/refined_gold-ready.png",
+        "evidence/runs/workshop-review3/gear-ready.png",
+        "evidence/runs/workshop-review3/polished-ready.png",
+        "evidence/runs/workshop-review3/pendant-ready.png"
+      ]
+    },
+    {
+      "id": "ingot_tin",
+      "stage": "workshop/ending",
+      "role": "Visible finished tin refinery output",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/ingot_tin.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/ingot_tin.glb",
+      "materials": [
+        "bright cast tin"
+      ],
+      "texture_paths": [
+        "assets/workshop/ingot_tin_bright-cast-tin-albedo.png",
+        "assets/workshop/ingot_tin_bright-cast-tin-normal.png",
+        "assets/workshop/ingot_tin_bright-cast-tin-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "pickup": [
+          0,
+          0,
+          0.015
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/workshop-review3/tin-ready.png",
+      "engine_verification": "All seven distinct product variants reviewed in native ready state, normal recipes and pickup; small pendant retains authored scale.",
+      "blender_texture_references": [
+        "assets/materials/bright-cast-tin-albedo.png",
+        "assets/materials/bright-cast-tin-normal.png",
+        "assets/materials/bright-cast-tin-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/workshop-review3/copper-ready.png",
+        "evidence/runs/workshop-review3/tin-ready.png",
+        "evidence/runs/workshop-review3/bronze-ready.png",
+        "evidence/runs/workshop-review3/refined_gold-ready.png",
+        "evidence/runs/workshop-review3/gear-ready.png",
+        "evidence/runs/workshop-review3/polished-ready.png",
+        "evidence/runs/workshop-review3/pendant-ready.png"
+      ]
+    },
+    {
+      "id": "ingot_bronze",
+      "stage": "workshop/ending",
+      "role": "Visible finished bronze refinery output",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/ingot_bronze.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/ingot_bronze.glb",
+      "materials": [
+        "cast bronze"
+      ],
+      "texture_paths": [
+        "assets/workshop/ingot_bronze_cast-bronze-albedo.png",
+        "assets/workshop/ingot_bronze_cast-bronze-normal.png",
+        "assets/workshop/ingot_bronze_cast-bronze-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "pickup": [
+          0,
+          0,
+          0.015
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/workshop-review3/bronze-ready.png",
+      "engine_verification": "All seven distinct product variants reviewed in native ready state, normal recipes and pickup; small pendant retains authored scale.",
+      "blender_texture_references": [
+        "//../materials/cast-bronze-albedo.png",
+        "//../materials/cast-bronze-normal.png",
+        "//../materials/cast-bronze-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/workshop-review3/copper-ready.png",
+        "evidence/runs/workshop-review3/tin-ready.png",
+        "evidence/runs/workshop-review3/bronze-ready.png",
+        "evidence/runs/workshop-review3/refined_gold-ready.png",
+        "evidence/runs/workshop-review3/gear-ready.png",
+        "evidence/runs/workshop-review3/polished-ready.png",
+        "evidence/runs/workshop-review3/pendant-ready.png"
+      ]
+    },
+    {
+      "id": "ingot_gold",
+      "stage": "workshop/ending",
+      "role": "Visible finished gold refinery output",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/ingot_gold.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/ingot_gold.glb",
+      "materials": [
+        "alluvial gold"
+      ],
+      "texture_paths": [
+        "assets/workshop/ingot_gold_alluvial-gold-albedo.png",
+        "assets/workshop/ingot_gold_alluvial-gold-normal.png",
+        "assets/workshop/ingot_gold_alluvial-gold-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "pickup": [
+          0,
+          0,
+          0.015
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/workshop-review3/refined_gold-ready.png",
+      "engine_verification": "All seven distinct product variants reviewed in native ready state, normal recipes and pickup; small pendant retains authored scale.",
+      "blender_texture_references": [
+        "//../materials/alluvial-gold-albedo.png",
+        "//../materials/alluvial-gold-normal.png",
+        "//../materials/alluvial-gold-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/workshop-review3/copper-ready.png",
+        "evidence/runs/workshop-review3/tin-ready.png",
+        "evidence/runs/workshop-review3/bronze-ready.png",
+        "evidence/runs/workshop-review3/refined_gold-ready.png",
+        "evidence/runs/workshop-review3/gear-ready.png",
+        "evidence/runs/workshop-review3/polished-ready.png",
+        "evidence/runs/workshop-review3/pendant-ready.png"
+      ]
+    },
+    {
+      "id": "polished_stone",
+      "stage": "workshop/ending",
+      "role": "Visible polished quartz output",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/polished_stone.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/polished_stone.glb",
+      "materials": [
+        "polished cloudy quartz"
+      ],
+      "texture_paths": [
+        "assets/workshop/polished_stone_polished-cloudy-quartz-albedo.png",
+        "assets/workshop/polished_stone_polished-cloudy-quartz-normal.png",
+        "assets/workshop/polished_stone_polished-cloudy-quartz-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "pickup": [
+          0,
+          0,
+          0.025
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/workshop-review3/polished-ready.png",
+      "engine_verification": "Native rough workpiece and polished output on front rest; retained quartz specimen on ending display.",
+      "blender_texture_references": [
+        "//../materials/polished-cloudy-quartz-albedo.png",
+        "//../materials/polished-cloudy-quartz-normal.png",
+        "//../materials/polished-cloudy-quartz-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/workshop-review3/polished-working.png",
+        "evidence/runs/workshop-review3/polished-ready.png",
+        "evidence/runs/package-visual01/view-09.png"
+      ]
+    },
+    {
+      "id": "crucible",
+      "stage": "workshop/ending",
+      "role": "Tilting workshop casting vessel",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/crucible.blend",
+      "generator": "tools/model_workshop.py",
+      "game_export": "assets/workshop/crucible.glb",
+      "materials": [
+        "brushed steel"
+      ],
+      "texture_paths": [
+        "assets/workshop/crucible_brushed-steel-albedo.png",
+        "assets/workshop/crucible_brushed-steel-normal.png",
+        "assets/workshop/crucible_brushed-steel-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "pour": [
+          0.12,
+          0,
+          0.23
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/workshop-review3/copper-working.png",
+      "engine_verification": "Native furnace/crucible glow and distinct copper output on unobscured ledge; actual normal job and pickup.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/workshop-review3/copper-working.png",
+        "evidence/runs/workshop-review3/copper-ready.png"
+      ]
+    },
+    {
+      "id": "detector",
+      "stage": "detector/mine",
+      "role": "Metal detector with true coil, cable, grip, cuff and display",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/detector.blend",
+      "generator": "tools/model_field.py",
+      "game_export": "assets/field/detector.glb",
+      "materials": [
+        "brushed steel",
+        "dark rubber",
+        "faded canvas",
+        "ochre canvas glove",
+        "vial pale blue glass",
+        "worn olive polymer"
+      ],
+      "texture_paths": [
+        "assets/field/detector_brushed-steel-albedo.png",
+        "assets/field/detector_brushed-steel-normal.png",
+        "assets/field/detector_brushed-steel-roughness.png",
+        "assets/field/detector_dark-rubber-albedo.png",
+        "assets/field/detector_dark-rubber-normal.png",
+        "assets/field/detector_dark-rubber-roughness.png",
+        "assets/field/detector_faded-canvas-albedo.png",
+        "assets/field/detector_faded-canvas-normal.png",
+        "assets/field/detector_faded-canvas-roughness.png",
+        "assets/field/detector_ochre-canvas-glove-albedo.png",
+        "assets/field/detector_ochre-canvas-glove-normal.png",
+        "assets/field/detector_ochre-canvas-glove-roughness.png",
+        "assets/field/detector_vial-pale-blue-glass-albedo.png",
+        "assets/field/detector_vial-pale-blue-glass-normal.png",
+        "assets/field/detector_vial-pale-blue-glass-roughness.png",
+        "assets/field/detector_worn-olive-polymer-albedo.png",
+        "assets/field/detector_worn-olive-polymer-normal.png",
+        "assets/field/detector_worn-olive-polymer-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "coil": [
+          0,
+          0,
+          0
+        ],
+        "grip": [
+          0,
+          0.62,
+          1.185
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/package-detector01/detector-found.png",
+      "engine_verification": "Native held detector reviewed; actual coil localization and persistence checked through reload.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/dark-rubber-albedo.png",
+        "//../materials/dark-rubber-normal.png",
+        "//../materials/dark-rubber-roughness.png",
+        "//../materials/faded-canvas-albedo.png",
+        "//../materials/faded-canvas-normal.png",
+        "//../materials/faded-canvas-roughness.png",
+        "//../materials/ochre-canvas-glove-albedo.png",
+        "//../materials/ochre-canvas-glove-normal.png",
+        "//../materials/ochre-canvas-glove-roughness.png",
+        "//../materials/vial-pale-blue-glass-albedo.png",
+        "//../materials/vial-pale-blue-glass-normal.png",
+        "//../materials/vial-pale-blue-glass-roughness.png",
+        "//../materials/worn-olive-polymer-albedo.png",
+        "//../materials/worn-olive-polymer-normal.png",
+        "//../materials/worn-olive-polymer-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/package-detector01/detector-found.png"
+      ]
+    },
+    {
+      "id": "pickaxe",
+      "stage": "detector/mine",
+      "role": "Rock cutting tool",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/pickaxe.blend",
+      "generator": "tools/model_field.py",
+      "game_export": "assets/field/pickaxe.glb",
+      "materials": [
+        "brushed steel",
+        "dark rubber",
+        "faded canvas",
+        "ochre canvas glove",
+        "warm worn ash"
+      ],
+      "texture_paths": [
+        "assets/field/pickaxe_brushed-steel-albedo.png",
+        "assets/field/pickaxe_brushed-steel-normal.png",
+        "assets/field/pickaxe_brushed-steel-roughness.png",
+        "assets/field/pickaxe_dark-rubber-albedo.png",
+        "assets/field/pickaxe_dark-rubber-normal.png",
+        "assets/field/pickaxe_dark-rubber-roughness.png",
+        "assets/field/pickaxe_faded-canvas-albedo.png",
+        "assets/field/pickaxe_faded-canvas-normal.png",
+        "assets/field/pickaxe_faded-canvas-roughness.png",
+        "assets/field/pickaxe_ochre-canvas-glove-albedo.png",
+        "assets/field/pickaxe_ochre-canvas-glove-normal.png",
+        "assets/field/pickaxe_ochre-canvas-glove-roughness.png",
+        "assets/field/pickaxe_warm-worn-ash-albedo.png",
+        "assets/field/pickaxe_warm-worn-ash-normal.png",
+        "assets/field/pickaxe_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "grip": [
+          0,
+          0,
+          0.25
+        ],
+        "strike": [
+          -0.3,
+          0,
+          0.6
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/final-views/hammer-installed.png",
+      "engine_verification": "Distinct native held pickaxe and support hammer; ordinary cuts and installed lagging produce feedback.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/dark-rubber-albedo.png",
+        "//../materials/dark-rubber-normal.png",
+        "//../materials/dark-rubber-roughness.png",
+        "//../materials/faded-canvas-albedo.png",
+        "//../materials/faded-canvas-normal.png",
+        "//../materials/faded-canvas-roughness.png",
+        "//../materials/ochre-canvas-glove-albedo.png",
+        "//../materials/ochre-canvas-glove-normal.png",
+        "//../materials/ochre-canvas-glove-roughness.png",
+        "//../materials/warm-worn-ash-albedo.png",
+        "//../materials/warm-worn-ash-normal.png",
+        "//../materials/warm-worn-ash-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/final-views/hammer-installed.png",
+        "evidence/runs/package-visual01/view-03.png"
+      ]
+    },
+    {
+      "id": "trowel",
+      "stage": "detector/mine",
+      "role": "Shallow target excavation",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/trowel.blend",
+      "generator": "tools/model_field.py",
+      "game_export": "assets/field/trowel.glb",
+      "materials": [
+        "brushed steel",
+        "dark rubber",
+        "faded canvas",
+        "ochre canvas glove",
+        "warm worn ash"
+      ],
+      "texture_paths": [
+        "assets/field/trowel_brushed-steel-albedo.png",
+        "assets/field/trowel_brushed-steel-normal.png",
+        "assets/field/trowel_brushed-steel-roughness.png",
+        "assets/field/trowel_dark-rubber-albedo.png",
+        "assets/field/trowel_dark-rubber-normal.png",
+        "assets/field/trowel_dark-rubber-roughness.png",
+        "assets/field/trowel_faded-canvas-albedo.png",
+        "assets/field/trowel_faded-canvas-normal.png",
+        "assets/field/trowel_faded-canvas-roughness.png",
+        "assets/field/trowel_ochre-canvas-glove-albedo.png",
+        "assets/field/trowel_ochre-canvas-glove-normal.png",
+        "assets/field/trowel_ochre-canvas-glove-roughness.png",
+        "assets/field/trowel_warm-worn-ash-albedo.png",
+        "assets/field/trowel_warm-worn-ash-normal.png",
+        "assets/field/trowel_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "grip": [
+          0,
+          0.15,
+          0
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/package-detector01/trowel-recovery.png",
+      "engine_verification": "Native trowel with gripping hand appears during actual target recovery; finite target is depleted.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/dark-rubber-albedo.png",
+        "//../materials/dark-rubber-normal.png",
+        "//../materials/dark-rubber-roughness.png",
+        "//../materials/faded-canvas-albedo.png",
+        "//../materials/faded-canvas-normal.png",
+        "//../materials/faded-canvas-roughness.png",
+        "//../materials/ochre-canvas-glove-albedo.png",
+        "//../materials/ochre-canvas-glove-normal.png",
+        "//../materials/ochre-canvas-glove-roughness.png",
+        "//../materials/warm-worn-ash-albedo.png",
+        "//../materials/warm-worn-ash-normal.png",
+        "//../materials/warm-worn-ash-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/package-detector01/trowel-recovery.png"
+      ]
+    },
+    {
+      "id": "barrow",
+      "stage": "detector/mine",
+      "role": "Physical width transport upgrade",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/barrow.blend",
+      "generator": "tools/model_field.py",
+      "game_export": "assets/field/barrow.glb",
+      "materials": [
+        "brushed steel",
+        "dark rubber",
+        "worn olive polymer"
+      ],
+      "texture_paths": [
+        "assets/field/barrow_brushed-steel-albedo.png",
+        "assets/field/barrow_brushed-steel-normal.png",
+        "assets/field/barrow_brushed-steel-roughness.png",
+        "assets/field/barrow_dark-rubber-albedo.png",
+        "assets/field/barrow_dark-rubber-normal.png",
+        "assets/field/barrow_dark-rubber-roughness.png",
+        "assets/field/barrow_worn-olive-polymer-albedo.png",
+        "assets/field/barrow_worn-olive-polymer-normal.png",
+        "assets/field/barrow_worn-olive-polymer-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "handles": [
+          0,
+          1.1,
+          0.58
+        ],
+        "load": [
+          0,
+          0,
+          0.6
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/runs/qa-campaign23/campaign-stage-20.png",
+      "engine_verification": "Actual loaded wheelbarrow clearance, widening and transport passed; frame collision is physical.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/dark-rubber-albedo.png",
+        "//../materials/dark-rubber-normal.png",
+        "//../materials/dark-rubber-roughness.png",
+        "//../materials/worn-olive-polymer-albedo.png",
+        "//../materials/worn-olive-polymer-normal.png",
+        "//../materials/worn-olive-polymer-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/runs/qa-campaign23/campaign-stage-20.png"
+      ]
+    },
+    {
+      "id": "support_hammer",
+      "stage": "detector/mine",
+      "role": "Held timber assembly and lagging hammer",
+      "source": "Original procedural Blender mesh",
+      "license": "Original project asset",
+      "editable_source": "assets/editable/support_hammer.blend",
+      "generator": "tools/model_field.py",
+      "game_export": "assets/field/support_hammer.glb",
+      "materials": [
+        "brushed steel",
+        "dark rubber",
+        "faded canvas",
+        "ochre canvas glove",
+        "warm worn ash"
+      ],
+      "texture_paths": [
+        "assets/field/support_hammer_brushed-steel-albedo.png",
+        "assets/field/support_hammer_brushed-steel-normal.png",
+        "assets/field/support_hammer_brushed-steel-roughness.png",
+        "assets/field/support_hammer_dark-rubber-albedo.png",
+        "assets/field/support_hammer_dark-rubber-normal.png",
+        "assets/field/support_hammer_dark-rubber-roughness.png",
+        "assets/field/support_hammer_faded-canvas-albedo.png",
+        "assets/field/support_hammer_faded-canvas-normal.png",
+        "assets/field/support_hammer_faded-canvas-roughness.png",
+        "assets/field/support_hammer_ochre-canvas-glove-albedo.png",
+        "assets/field/support_hammer_ochre-canvas-glove-normal.png",
+        "assets/field/support_hammer_ochre-canvas-glove-roughness.png",
+        "assets/field/support_hammer_warm-worn-ash-albedo.png",
+        "assets/field/support_hammer_warm-worn-ash-normal.png",
+        "assets/field/support_hammer_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres",
+      "origin": "functional base/center",
+      "collision": "Godot authored interaction/body shapes",
+      "sockets": {
+        "grip": [
+          0,
+          0,
+          0.135
+        ],
+        "strike": [
+          0.1,
+          0,
+          0.355
+        ]
+      },
+      "animations": "Godot tool-root interaction transforms",
+      "preview": "evidence/final-views/hammer-installed.png",
+      "engine_verification": "Distinct native held pickaxe and support hammer; ordinary cuts and installed lagging produce feedback.",
+      "blender_texture_references": [
+        "//../materials/brushed-steel-albedo.png",
+        "//../materials/brushed-steel-normal.png",
+        "//../materials/brushed-steel-roughness.png",
+        "//../materials/dark-rubber-albedo.png",
+        "//../materials/dark-rubber-normal.png",
+        "//../materials/dark-rubber-roughness.png",
+        "//../materials/faded-canvas-albedo.png",
+        "//../materials/faded-canvas-normal.png",
+        "//../materials/faded-canvas-roughness.png",
+        "//../materials/ochre-canvas-glove-albedo.png",
+        "//../materials/ochre-canvas-glove-normal.png",
+        "//../materials/ochre-canvas-glove-roughness.png",
+        "//../materials/warm-worn-ash-albedo.png",
+        "//../materials/warm-worn-ash-normal.png",
+        "//../materials/warm-worn-ash-roughness.png"
+      ],
+      "native_evidence": [
+        "evidence/final-views/hammer-installed.png",
+        "evidence/runs/package-visual01/view-03.png"
+      ]
+    }
+  ]
+}

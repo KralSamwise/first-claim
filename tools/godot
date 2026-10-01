@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")/.."
+if [ -n "${GODOT_BIN:-}" ]; then exec "$GODOT_BIN" --path "$PWD" "$@"; fi
+if command -v godot >/dev/null 2>&1; then exec godot --path "$PWD" "$@"; fi
+if [ -x /Applications/Godot.app/Contents/MacOS/Godot ]; then exec /Applications/Godot.app/Contents/MacOS/Godot --path "$PWD" "$@"; fi
+printf '%s\n' 'Install Godot 4.5.2 and put godot on PATH, or set GODOT_BIN to its executable.' >&2
+exit 1

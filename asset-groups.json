@@ -1,0 +1,1103 @@
+{
+  "schema": 1,
+  "required_groups": 28,
+  "mapped_groups": 28,
+  "exported_models": 26,
+  "missing_model_ids": [],
+  "groups": [
+    {
+      "group": 1,
+      "name": "River terrain",
+      "model_ids": [],
+      "functional_role": "Native terrain/bank and ridge views; actual camp-to-mine collision route passed.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd"
+      ],
+      "game_exports": [
+        "source/main.gd"
+      ],
+      "materials_textures": [
+        "source/main.gd"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native terrain/bank and ridge views; actual camp-to-mine collision route passed.",
+      "preview_paths": [
+        "evidence/runs/qa-campaign23/river-phase-03.png",
+        "evidence/runs/package-visual01/view-02.png"
+      ],
+      "verification": "Native terrain/bank and ridge views; actual camp-to-mine collision route passed.",
+      "material_note": "Engine-created shader/NoiseTexture/material definitions in listed source; no external bitmap is required."
+    },
+    {
+      "group": 2,
+      "name": "Water",
+      "model_ids": [],
+      "functional_role": "Native river and contained pan water visible; immersion and wash follow actual finite batch.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd"
+      ],
+      "game_exports": [
+        "source/main.gd"
+      ],
+      "materials_textures": [
+        "source/main.gd"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native river and contained pan water visible; immersion and wash follow actual finite batch.",
+      "preview_paths": [
+        "evidence/runs/qa-campaign23/river-phase-05.png"
+      ],
+      "verification": "Native river and contained pan water visible; immersion and wash follow actual finite batch.",
+      "material_note": "Engine-created shader/NoiseTexture/material definitions in listed source; no external bitmap is required."
+    },
+    {
+      "group": 3,
+      "name": "Rock and gravel kit",
+      "model_ids": [],
+      "functional_role": "Native gravel bank and scattered rock kit visible; collision route uses actual physical boulders.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd"
+      ],
+      "game_exports": [
+        "source/main.gd"
+      ],
+      "materials_textures": [
+        "source/main.gd"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native gravel bank and scattered rock kit visible; collision route uses actual physical boulders.",
+      "preview_paths": [
+        "evidence/runs/qa-campaign23/river-phase-03.png"
+      ],
+      "verification": "Native gravel bank and scattered rock kit visible; collision route uses actual physical boulders.",
+      "material_note": "Engine-created shader/NoiseTexture/material definitions in listed source; no external bitmap is required."
+    },
+    {
+      "group": 4,
+      "name": "Hero pan",
+      "model_ids": [
+        "hero_pan"
+      ],
+      "functional_role": "Native bowl/riffles/glove grips reviewed empty and washing/reveal.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "tools/model_opening.py",
+        "assets/editable/hero_pan.blend"
+      ],
+      "game_exports": [
+        "assets/opening/hero_pan.glb"
+      ],
+      "materials_textures": [
+        "assets/opening/hero_pan_abraded-olive-polymer-rim-albedo.png",
+        "assets/opening/hero_pan_abraded-olive-polymer-rim-normal.png",
+        "assets/opening/hero_pan_abraded-olive-polymer-rim-roughness.png",
+        "assets/opening/hero_pan_dark-rubber-albedo.png",
+        "assets/opening/hero_pan_dark-rubber-normal.png",
+        "assets/opening/hero_pan_dark-rubber-roughness.png",
+        "assets/opening/hero_pan_faded-canvas-albedo.png",
+        "assets/opening/hero_pan_faded-canvas-normal.png",
+        "assets/opening/hero_pan_faded-canvas-roughness.png",
+        "assets/opening/hero_pan_ochre-canvas-glove-albedo.png",
+        "assets/opening/hero_pan_ochre-canvas-glove-normal.png",
+        "assets/opening/hero_pan_ochre-canvas-glove-roughness.png",
+        "assets/opening/hero_pan_worn-olive-polymer-albedo.png",
+        "assets/opening/hero_pan_worn-olive-polymer-normal.png",
+        "assets/opening/hero_pan_worn-olive-polymer-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native bowl/riffles/glove grips reviewed empty and washing/reveal.",
+      "preview_paths": [
+        "evidence/runs/qa-campaign23/river-phase-03.png",
+        "evidence/runs/qa-campaign23/river-phase-05.png"
+      ],
+      "verification": "Native bowl/riffles/glove grips reviewed empty and washing/reveal."
+    },
+    {
+      "group": 5,
+      "name": "Pan contents",
+      "model_ids": [],
+      "functional_role": "Native finite water/sediment/gold content states; ordinary-input wash verified.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd"
+      ],
+      "game_exports": [
+        "source/main.gd"
+      ],
+      "materials_textures": [
+        "source/main.gd"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native finite water/sediment/gold content states; ordinary-input wash verified.",
+      "preview_paths": [
+        "evidence/runs/qa-campaign23/river-phase-05.png",
+        "evidence/runs/qa-campaign23/river-phase-04.png"
+      ],
+      "verification": "Native finite water/sediment/gold content states; ordinary-input wash verified.",
+      "material_note": "Engine-created shader/NoiseTexture/material definitions in listed source; no external bitmap is required."
+    },
+    {
+      "group": 6,
+      "name": "Shovel",
+      "model_ids": [
+        "shovel"
+      ],
+      "functional_role": "Native brief scoop tool shown during actual first scoop; persistent camp shovel also installed.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "tools/model_opening.py",
+        "assets/editable/shovel.blend"
+      ],
+      "game_exports": [
+        "assets/opening/shovel.glb"
+      ],
+      "materials_textures": [
+        "assets/opening/shovel_brushed-steel-albedo.png",
+        "assets/opening/shovel_brushed-steel-normal.png",
+        "assets/opening/shovel_brushed-steel-roughness.png",
+        "assets/opening/shovel_dark-rubber-albedo.png",
+        "assets/opening/shovel_dark-rubber-normal.png",
+        "assets/opening/shovel_dark-rubber-roughness.png",
+        "assets/opening/shovel_warm-worn-ash-albedo.png",
+        "assets/opening/shovel_warm-worn-ash-normal.png",
+        "assets/opening/shovel_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native brief scoop tool shown during actual first scoop; persistent camp shovel also installed.",
+      "preview_paths": [
+        "evidence/final-views/shovel-scoop.png"
+      ],
+      "verification": "Native scoop head and part of shaft visible above/beside HUD during actual first scoop; not a full-body digging animation."
+    },
+    {
+      "group": 7,
+      "name": "Hands and gloves",
+      "model_ids": [
+        "hero_pan",
+        "pickaxe",
+        "detector",
+        "support_hammer"
+      ],
+      "functional_role": "Connected curved glove grips visible on held pan and actual support hammer.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "tools/model_opening.py",
+        "tools/model_field.py",
+        "assets/editable/hero_pan.blend",
+        "assets/editable/pickaxe.blend",
+        "assets/editable/detector.blend",
+        "assets/editable/support_hammer.blend"
+      ],
+      "game_exports": [
+        "assets/opening/hero_pan.glb",
+        "assets/field/pickaxe.glb",
+        "assets/field/detector.glb",
+        "assets/field/support_hammer.glb"
+      ],
+      "materials_textures": [
+        "assets/field/detector_brushed-steel-albedo.png",
+        "assets/field/detector_brushed-steel-normal.png",
+        "assets/field/detector_brushed-steel-roughness.png",
+        "assets/field/detector_dark-rubber-albedo.png",
+        "assets/field/detector_dark-rubber-normal.png",
+        "assets/field/detector_dark-rubber-roughness.png",
+        "assets/field/detector_faded-canvas-albedo.png",
+        "assets/field/detector_faded-canvas-normal.png",
+        "assets/field/detector_faded-canvas-roughness.png",
+        "assets/field/detector_ochre-canvas-glove-albedo.png",
+        "assets/field/detector_ochre-canvas-glove-normal.png",
+        "assets/field/detector_ochre-canvas-glove-roughness.png",
+        "assets/field/detector_vial-pale-blue-glass-albedo.png",
+        "assets/field/detector_vial-pale-blue-glass-normal.png",
+        "assets/field/detector_vial-pale-blue-glass-roughness.png",
+        "assets/field/detector_worn-olive-polymer-albedo.png",
+        "assets/field/detector_worn-olive-polymer-normal.png",
+        "assets/field/detector_worn-olive-polymer-roughness.png",
+        "assets/field/pickaxe_brushed-steel-albedo.png",
+        "assets/field/pickaxe_brushed-steel-normal.png",
+        "assets/field/pickaxe_brushed-steel-roughness.png",
+        "assets/field/pickaxe_dark-rubber-albedo.png",
+        "assets/field/pickaxe_dark-rubber-normal.png",
+        "assets/field/pickaxe_dark-rubber-roughness.png",
+        "assets/field/pickaxe_faded-canvas-albedo.png",
+        "assets/field/pickaxe_faded-canvas-normal.png",
+        "assets/field/pickaxe_faded-canvas-roughness.png",
+        "assets/field/pickaxe_ochre-canvas-glove-albedo.png",
+        "assets/field/pickaxe_ochre-canvas-glove-normal.png",
+        "assets/field/pickaxe_ochre-canvas-glove-roughness.png",
+        "assets/field/pickaxe_warm-worn-ash-albedo.png",
+        "assets/field/pickaxe_warm-worn-ash-normal.png",
+        "assets/field/pickaxe_warm-worn-ash-roughness.png",
+        "assets/field/support_hammer_brushed-steel-albedo.png",
+        "assets/field/support_hammer_brushed-steel-normal.png",
+        "assets/field/support_hammer_brushed-steel-roughness.png",
+        "assets/field/support_hammer_dark-rubber-albedo.png",
+        "assets/field/support_hammer_dark-rubber-normal.png",
+        "assets/field/support_hammer_dark-rubber-roughness.png",
+        "assets/field/support_hammer_faded-canvas-albedo.png",
+        "assets/field/support_hammer_faded-canvas-normal.png",
+        "assets/field/support_hammer_faded-canvas-roughness.png",
+        "assets/field/support_hammer_ochre-canvas-glove-albedo.png",
+        "assets/field/support_hammer_ochre-canvas-glove-normal.png",
+        "assets/field/support_hammer_ochre-canvas-glove-roughness.png",
+        "assets/field/support_hammer_warm-worn-ash-albedo.png",
+        "assets/field/support_hammer_warm-worn-ash-normal.png",
+        "assets/field/support_hammer_warm-worn-ash-roughness.png",
+        "assets/opening/hero_pan_abraded-olive-polymer-rim-albedo.png",
+        "assets/opening/hero_pan_abraded-olive-polymer-rim-normal.png",
+        "assets/opening/hero_pan_abraded-olive-polymer-rim-roughness.png",
+        "assets/opening/hero_pan_dark-rubber-albedo.png",
+        "assets/opening/hero_pan_dark-rubber-normal.png",
+        "assets/opening/hero_pan_dark-rubber-roughness.png",
+        "assets/opening/hero_pan_faded-canvas-albedo.png",
+        "assets/opening/hero_pan_faded-canvas-normal.png",
+        "assets/opening/hero_pan_faded-canvas-roughness.png",
+        "assets/opening/hero_pan_ochre-canvas-glove-albedo.png",
+        "assets/opening/hero_pan_ochre-canvas-glove-normal.png",
+        "assets/opening/hero_pan_ochre-canvas-glove-roughness.png",
+        "assets/opening/hero_pan_worn-olive-polymer-albedo.png",
+        "assets/opening/hero_pan_worn-olive-polymer-normal.png",
+        "assets/opening/hero_pan_worn-olive-polymer-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Connected curved glove grips visible on held pan and actual support hammer.",
+      "preview_paths": [
+        "evidence/runs/qa-campaign23/river-phase-03.png",
+        "evidence/final-views/hammer-installed.png"
+      ],
+      "verification": "Connected curved glove grips visible on held pan and actual support hammer."
+    },
+    {
+      "group": 8,
+      "name": "Gold vial",
+      "model_ids": [
+        "vial"
+      ],
+      "functional_role": "Native vial contains stock-driven flakes in completed earned world; fresh start is empty.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/vial.blend"
+      ],
+      "game_exports": [
+        "assets/opening/vial.glb"
+      ],
+      "materials_textures": [
+        "assets/opening/vial_alluvial-gold-albedo.png",
+        "assets/opening/vial_alluvial-gold-normal.png",
+        "assets/opening/vial_alluvial-gold-roughness.png",
+        "assets/opening/vial_dark-rubber-albedo.png",
+        "assets/opening/vial_dark-rubber-normal.png",
+        "assets/opening/vial_dark-rubber-roughness.png",
+        "assets/opening/vial_vial-pale-blue-glass-albedo.png",
+        "assets/opening/vial_vial-pale-blue-glass-normal.png",
+        "assets/opening/vial_vial-pale-blue-glass-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native vial contains stock-driven flakes in completed earned world; fresh start is empty.",
+      "preview_paths": [
+        "evidence/runs/package-visual01/view-00.png"
+      ],
+      "verification": "Native vial contains stock-driven flakes in completed earned world; fresh start is empty."
+    },
+    {
+      "group": 9,
+      "name": "Gold kit",
+      "model_ids": [],
+      "functional_role": "Native pan flakes and actual recovered nugget feedback visible; no decorative payout.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd"
+      ],
+      "game_exports": [
+        "source/main.gd"
+      ],
+      "materials_textures": [
+        "source/main.gd"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native pan flakes and actual recovered nugget feedback visible; no decorative payout.",
+      "preview_paths": [
+        "evidence/runs/qa-campaign23/river-phase-05.png",
+        "evidence/final-views/nugget-recovery.png"
+      ],
+      "verification": "Native pan flakes and actual recovered nugget feedback visible; no decorative payout.",
+      "material_note": "Engine-created shader/NoiseTexture/material definitions in listed source; no external bitmap is required."
+    },
+    {
+      "group": 10,
+      "name": "Scale and selling point",
+      "model_ids": [
+        "scale",
+        "bench"
+      ],
+      "functional_role": "Native scale/bench visible; explicit sale UI exercised in fresh campaign.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/scale.blend",
+        "assets/editable/bench.blend"
+      ],
+      "game_exports": [
+        "assets/opening/scale.glb",
+        "assets/opening/bench.glb"
+      ],
+      "materials_textures": [
+        "assets/opening/bench_brushed-steel-albedo.png",
+        "assets/opening/bench_brushed-steel-normal.png",
+        "assets/opening/bench_brushed-steel-roughness.png",
+        "assets/opening/bench_warm-worn-ash-albedo.png",
+        "assets/opening/bench_warm-worn-ash-normal.png",
+        "assets/opening/bench_warm-worn-ash-roughness.png",
+        "assets/opening/scale_brushed-steel-albedo.png",
+        "assets/opening/scale_brushed-steel-normal.png",
+        "assets/opening/scale_brushed-steel-roughness.png",
+        "assets/opening/scale_dark-rubber-albedo.png",
+        "assets/opening/scale_dark-rubber-normal.png",
+        "assets/opening/scale_dark-rubber-roughness.png",
+        "assets/opening/scale_worn-olive-polymer-albedo.png",
+        "assets/opening/scale_worn-olive-polymer-normal.png",
+        "assets/opening/scale_worn-olive-polymer-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native scale/bench visible; explicit sale UI exercised in fresh campaign.",
+      "preview_paths": [
+        "evidence/runs/package-visual01/view-00.png",
+        "evidence/runs/qa-campaign23/river-phase-08.png"
+      ],
+      "verification": "Native scale/bench visible; explicit sale UI exercised in fresh campaign."
+    },
+    {
+      "group": 11,
+      "name": "Camp kit",
+      "model_ids": [
+        "bench",
+        "board"
+      ],
+      "functional_role": "Native camp bench and purchase board, readable prompts; actual purchases exercised.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/bench.blend",
+        "assets/editable/board.blend"
+      ],
+      "game_exports": [
+        "assets/opening/bench.glb",
+        "assets/opening/board.glb"
+      ],
+      "materials_textures": [
+        "assets/opening/bench_brushed-steel-albedo.png",
+        "assets/opening/bench_brushed-steel-normal.png",
+        "assets/opening/bench_brushed-steel-roughness.png",
+        "assets/opening/bench_warm-worn-ash-albedo.png",
+        "assets/opening/bench_warm-worn-ash-normal.png",
+        "assets/opening/bench_warm-worn-ash-roughness.png",
+        "assets/opening/board_faded-canvas-albedo.png",
+        "assets/opening/board_faded-canvas-normal.png",
+        "assets/opening/board_faded-canvas-roughness.png",
+        "assets/opening/board_warm-worn-ash-albedo.png",
+        "assets/opening/board_warm-worn-ash-normal.png",
+        "assets/opening/board_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native camp bench and purchase board, readable prompts; actual purchases exercised.",
+      "preview_paths": [
+        "evidence/runs/package-visual01/view-00.png",
+        "evidence/runs/qa-campaign23/river-phase-12.png"
+      ],
+      "verification": "Native camp bench and purchase board, readable prompts; actual purchases exercised."
+    },
+    {
+      "group": 12,
+      "name": "Feedback and UI",
+      "model_ids": [],
+      "functional_role": "Readable contextual HUD, reticle and ending UI reviewed; ordinary menu input tested.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd"
+      ],
+      "game_exports": [
+        "source/main.gd"
+      ],
+      "materials_textures": [
+        "source/main.gd"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Readable contextual HUD, reticle and ending UI reviewed; ordinary menu input tested.",
+      "preview_paths": [
+        "evidence/runs/qa-campaign23/river-phase-03.png",
+        "evidence/runs/qa-campaign23/campaign-complete.png"
+      ],
+      "verification": "Readable contextual HUD, reticle and ending UI reviewed; ordinary menu input tested.",
+      "material_note": "Engine-created shader/NoiseTexture/material definitions in listed source; no external bitmap is required."
+    },
+    {
+      "group": 13,
+      "name": "Detector",
+      "model_ids": [
+        "detector"
+      ],
+      "functional_role": "Native held detector reviewed; actual coil localization and persistence checked through reload.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/detector.blend"
+      ],
+      "game_exports": [
+        "assets/field/detector.glb"
+      ],
+      "materials_textures": [
+        "assets/field/detector_brushed-steel-albedo.png",
+        "assets/field/detector_brushed-steel-normal.png",
+        "assets/field/detector_brushed-steel-roughness.png",
+        "assets/field/detector_dark-rubber-albedo.png",
+        "assets/field/detector_dark-rubber-normal.png",
+        "assets/field/detector_dark-rubber-roughness.png",
+        "assets/field/detector_faded-canvas-albedo.png",
+        "assets/field/detector_faded-canvas-normal.png",
+        "assets/field/detector_faded-canvas-roughness.png",
+        "assets/field/detector_ochre-canvas-glove-albedo.png",
+        "assets/field/detector_ochre-canvas-glove-normal.png",
+        "assets/field/detector_ochre-canvas-glove-roughness.png",
+        "assets/field/detector_vial-pale-blue-glass-albedo.png",
+        "assets/field/detector_vial-pale-blue-glass-normal.png",
+        "assets/field/detector_vial-pale-blue-glass-roughness.png",
+        "assets/field/detector_worn-olive-polymer-albedo.png",
+        "assets/field/detector_worn-olive-polymer-normal.png",
+        "assets/field/detector_worn-olive-polymer-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native held detector reviewed; actual coil localization and persistence checked through reload.",
+      "preview_paths": [
+        "evidence/runs/package-detector01/detector-found.png"
+      ],
+      "verification": "Native held detector reviewed; actual coil localization and persistence checked through reload."
+    },
+    {
+      "group": 14,
+      "name": "Trowel and targets",
+      "model_ids": [
+        "trowel"
+      ],
+      "functional_role": "Native trowel with gripping hand appears during actual target recovery; finite target is depleted.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/trowel.blend"
+      ],
+      "game_exports": [
+        "assets/field/trowel.glb"
+      ],
+      "materials_textures": [
+        "assets/field/trowel_brushed-steel-albedo.png",
+        "assets/field/trowel_brushed-steel-normal.png",
+        "assets/field/trowel_brushed-steel-roughness.png",
+        "assets/field/trowel_dark-rubber-albedo.png",
+        "assets/field/trowel_dark-rubber-normal.png",
+        "assets/field/trowel_dark-rubber-roughness.png",
+        "assets/field/trowel_faded-canvas-albedo.png",
+        "assets/field/trowel_faded-canvas-normal.png",
+        "assets/field/trowel_faded-canvas-roughness.png",
+        "assets/field/trowel_ochre-canvas-glove-albedo.png",
+        "assets/field/trowel_ochre-canvas-glove-normal.png",
+        "assets/field/trowel_ochre-canvas-glove-roughness.png",
+        "assets/field/trowel_warm-worn-ash-albedo.png",
+        "assets/field/trowel_warm-worn-ash-normal.png",
+        "assets/field/trowel_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native trowel with gripping hand appears during actual target recovery; finite target is depleted.",
+      "preview_paths": [
+        "evidence/runs/package-detector01/trowel-recovery.png"
+      ],
+      "verification": "Native trowel with gripping hand appears during actual target recovery; finite target is depleted."
+    },
+    {
+      "group": 15,
+      "name": "Sample kit",
+      "model_ids": [
+        "sample_tray"
+      ],
+      "functional_role": "Three collected samples visibly occupy tray; sample identities persisted in fresh campaign.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/sample_tray.blend"
+      ],
+      "game_exports": [
+        "assets/opening/sample_tray.glb"
+      ],
+      "materials_textures": [
+        "assets/opening/sample_tray_brushed-steel-albedo.png",
+        "assets/opening/sample_tray_brushed-steel-normal.png",
+        "assets/opening/sample_tray_brushed-steel-roughness.png",
+        "assets/opening/sample_tray_vial-pale-blue-glass-albedo.png",
+        "assets/opening/sample_tray_vial-pale-blue-glass-normal.png",
+        "assets/opening/sample_tray_vial-pale-blue-glass-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Three collected samples visibly occupy tray; sample identities persisted in fresh campaign.",
+      "preview_paths": [
+        "evidence/runs/package-visual01/view-00.png"
+      ],
+      "verification": "Three collected samples visibly occupy tray; sample identities persisted in fresh campaign."
+    },
+    {
+      "group": 16,
+      "name": "Surface vein",
+      "model_ids": [],
+      "functional_role": "Native ridge/vein approach and sampling route; bounded immutable surroundings remain.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "source/mine.gd"
+      ],
+      "game_exports": [
+        "source/main.gd",
+        "source/mine.gd"
+      ],
+      "materials_textures": [
+        "source/main.gd",
+        "source/mine.gd"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native ridge/vein approach and sampling route; bounded immutable surroundings remain.",
+      "preview_paths": [
+        "evidence/runs/package-visual01/view-02.png",
+        "evidence/runs/qa-campaign23/campaign-stage-09.png"
+      ],
+      "verification": "Native ridge/vein approach and sampling route; bounded immutable surroundings remain.",
+      "material_note": "Engine-created shader/NoiseTexture/material definitions in listed source; no external bitmap is required."
+    },
+    {
+      "group": 17,
+      "name": "Excavatable terrain",
+      "model_ids": [],
+      "functional_role": "Native excavated volume reviewed and walked; geometry/collision and save reload verified.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/mine.gd"
+      ],
+      "game_exports": [
+        "source/mine.gd"
+      ],
+      "materials_textures": [
+        "source/mine.gd"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native excavated volume reviewed and walked; geometry/collision and save reload verified.",
+      "preview_paths": [
+        "evidence/runs/package-visual01/view-03.png",
+        "evidence/runs/qa-campaign23/reload-tunnel-after.png"
+      ],
+      "verification": "Native excavated volume reviewed and walked; geometry/collision and save reload verified.",
+      "material_note": "Engine-created shader/NoiseTexture/material definitions in listed source; no external bitmap is required."
+    },
+    {
+      "group": 18,
+      "name": "Support kit",
+      "model_ids": [],
+      "functional_role": "Native posts/header/lagging, diagonal braces and contact-valid placement; actual support recovery tested.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/mine.gd"
+      ],
+      "game_exports": [
+        "source/mine.gd"
+      ],
+      "materials_textures": [
+        "source/mine.gd"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native posts/header/lagging, diagonal braces and contact-valid placement; actual support recovery tested.",
+      "preview_paths": [
+        "evidence/runs/package-visual01/view-03.png",
+        "evidence/runs/qa-support-proof/pass.png"
+      ],
+      "verification": "Native posts/header/lagging, diagonal braces and contact-valid placement; actual support recovery tested.",
+      "material_note": "Engine-created shader/NoiseTexture/material definitions in listed source; no external bitmap is required."
+    },
+    {
+      "group": 19,
+      "name": "Work lamp",
+      "model_ids": [],
+      "functional_role": "Native guarded amber work lamps and carried illumination visible in excavated tunnel.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/mine.gd",
+        "source/main.gd"
+      ],
+      "game_exports": [
+        "source/mine.gd",
+        "source/main.gd"
+      ],
+      "materials_textures": [
+        "source/mine.gd",
+        "source/main.gd"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native guarded amber work lamps and carried illumination visible in excavated tunnel.",
+      "preview_paths": [
+        "evidence/runs/package-visual01/view-03.png"
+      ],
+      "verification": "Native guarded amber work lamps and carried illumination visible in excavated tunnel.",
+      "material_note": "Engine-created shader/NoiseTexture/material definitions in listed source; no external bitmap is required."
+    },
+    {
+      "group": 20,
+      "name": "Wheelbarrow",
+      "model_ids": [
+        "barrow"
+      ],
+      "functional_role": "Actual loaded wheelbarrow clearance, widening and transport passed; frame collision is physical.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/barrow.blend"
+      ],
+      "game_exports": [
+        "assets/field/barrow.glb"
+      ],
+      "materials_textures": [
+        "assets/field/barrow_brushed-steel-albedo.png",
+        "assets/field/barrow_brushed-steel-normal.png",
+        "assets/field/barrow_brushed-steel-roughness.png",
+        "assets/field/barrow_dark-rubber-albedo.png",
+        "assets/field/barrow_dark-rubber-normal.png",
+        "assets/field/barrow_dark-rubber-roughness.png",
+        "assets/field/barrow_worn-olive-polymer-albedo.png",
+        "assets/field/barrow_worn-olive-polymer-normal.png",
+        "assets/field/barrow_worn-olive-polymer-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Actual loaded wheelbarrow clearance, widening and transport passed; frame collision is physical.",
+      "preview_paths": [
+        "evidence/runs/qa-campaign23/campaign-stage-20.png"
+      ],
+      "verification": "Actual loaded wheelbarrow clearance, widening and transport passed; frame collision is physical."
+    },
+    {
+      "group": 21,
+      "name": "Pickaxe and hammer",
+      "model_ids": [
+        "pickaxe",
+        "support_hammer"
+      ],
+      "functional_role": "Distinct native held pickaxe and support hammer; ordinary cuts and installed lagging produce feedback.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/pickaxe.blend",
+        "assets/editable/support_hammer.blend"
+      ],
+      "game_exports": [
+        "assets/field/pickaxe.glb",
+        "assets/field/support_hammer.glb"
+      ],
+      "materials_textures": [
+        "assets/field/pickaxe_brushed-steel-albedo.png",
+        "assets/field/pickaxe_brushed-steel-normal.png",
+        "assets/field/pickaxe_brushed-steel-roughness.png",
+        "assets/field/pickaxe_dark-rubber-albedo.png",
+        "assets/field/pickaxe_dark-rubber-normal.png",
+        "assets/field/pickaxe_dark-rubber-roughness.png",
+        "assets/field/pickaxe_faded-canvas-albedo.png",
+        "assets/field/pickaxe_faded-canvas-normal.png",
+        "assets/field/pickaxe_faded-canvas-roughness.png",
+        "assets/field/pickaxe_ochre-canvas-glove-albedo.png",
+        "assets/field/pickaxe_ochre-canvas-glove-normal.png",
+        "assets/field/pickaxe_ochre-canvas-glove-roughness.png",
+        "assets/field/pickaxe_warm-worn-ash-albedo.png",
+        "assets/field/pickaxe_warm-worn-ash-normal.png",
+        "assets/field/pickaxe_warm-worn-ash-roughness.png",
+        "assets/field/support_hammer_brushed-steel-albedo.png",
+        "assets/field/support_hammer_brushed-steel-normal.png",
+        "assets/field/support_hammer_brushed-steel-roughness.png",
+        "assets/field/support_hammer_dark-rubber-albedo.png",
+        "assets/field/support_hammer_dark-rubber-normal.png",
+        "assets/field/support_hammer_dark-rubber-roughness.png",
+        "assets/field/support_hammer_faded-canvas-albedo.png",
+        "assets/field/support_hammer_faded-canvas-normal.png",
+        "assets/field/support_hammer_faded-canvas-roughness.png",
+        "assets/field/support_hammer_ochre-canvas-glove-albedo.png",
+        "assets/field/support_hammer_ochre-canvas-glove-normal.png",
+        "assets/field/support_hammer_ochre-canvas-glove-roughness.png",
+        "assets/field/support_hammer_warm-worn-ash-albedo.png",
+        "assets/field/support_hammer_warm-worn-ash-normal.png",
+        "assets/field/support_hammer_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Distinct native held pickaxe and support hammer; ordinary cuts and installed lagging produce feedback.",
+      "preview_paths": [
+        "evidence/final-views/hammer-installed.png",
+        "evidence/runs/package-visual01/view-03.png"
+      ],
+      "verification": "Distinct native held pickaxe and support hammer; ordinary cuts and installed lagging produce feedback."
+    },
+    {
+      "group": 22,
+      "name": "Rubble and stability",
+      "model_ids": [],
+      "functional_role": "Native strained warning, localized fall and actual clear/rebuild recovery reviewed.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/mine.gd"
+      ],
+      "game_exports": [
+        "source/mine.gd"
+      ],
+      "materials_textures": [
+        "source/mine.gd"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native strained warning, localized fall and actual clear/rebuild recovery reviewed.",
+      "preview_paths": [
+        "evidence/runs/qa-support-proof/warning.png",
+        "evidence/runs/qa-support-proof/fall.png",
+        "evidence/runs/qa-support-proof/pass.png"
+      ],
+      "verification": "Native strained warning, localized fall and actual clear/rebuild recovery reviewed.",
+      "material_note": "Engine-created shader/NoiseTexture/material definitions in listed source; no external bitmap is required."
+    },
+    {
+      "group": 23,
+      "name": "Sieve and washer",
+      "model_ids": [
+        "sieve",
+        "classifier"
+      ],
+      "functional_role": "Native sieve/classifier surfaces; finite fines recovered once through ordinary input.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/sieve.blend",
+        "assets/editable/classifier.blend"
+      ],
+      "game_exports": [
+        "assets/workshop/sieve.glb",
+        "assets/opening/classifier.glb"
+      ],
+      "materials_textures": [
+        "assets/opening/classifier_brushed-steel-albedo.png",
+        "assets/opening/classifier_brushed-steel-normal.png",
+        "assets/opening/classifier_brushed-steel-roughness.png",
+        "assets/opening/classifier_worn-olive-polymer-albedo.png",
+        "assets/opening/classifier_worn-olive-polymer-normal.png",
+        "assets/opening/classifier_worn-olive-polymer-roughness.png",
+        "assets/workshop/sieve_brushed-steel-albedo.png",
+        "assets/workshop/sieve_brushed-steel-normal.png",
+        "assets/workshop/sieve_brushed-steel-roughness.png",
+        "assets/workshop/sieve_warm-worn-ash-albedo.png",
+        "assets/workshop/sieve_warm-worn-ash-normal.png",
+        "assets/workshop/sieve_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native sieve/classifier surfaces; finite fines recovered once through ordinary input.",
+      "preview_paths": [
+        "evidence/runs/package-visual01/view-06.png",
+        "evidence/runs/package-visual01/view-00.png",
+        "evidence/runs/qa-campaign23/fine-screen-recovery.png"
+      ],
+      "verification": "Native sieve/classifier surfaces; finite fines recovered once through ordinary input."
+    },
+    {
+      "group": 24,
+      "name": "Furnace and crucible",
+      "model_ids": [
+        "furnace",
+        "crucible"
+      ],
+      "functional_role": "Native furnace/crucible glow and distinct copper output on unobscured ledge; actual normal job and pickup.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/furnace.blend",
+        "assets/editable/crucible.blend"
+      ],
+      "game_exports": [
+        "assets/workshop/furnace.glb",
+        "assets/workshop/crucible.glb"
+      ],
+      "materials_textures": [
+        "assets/workshop/crucible_brushed-steel-albedo.png",
+        "assets/workshop/crucible_brushed-steel-normal.png",
+        "assets/workshop/crucible_brushed-steel-roughness.png",
+        "assets/workshop/furnace_brushed-steel-albedo.png",
+        "assets/workshop/furnace_brushed-steel-normal.png",
+        "assets/workshop/furnace_brushed-steel-roughness.png",
+        "assets/workshop/furnace_dark-rubber-albedo.png",
+        "assets/workshop/furnace_dark-rubber-normal.png",
+        "assets/workshop/furnace_dark-rubber-roughness.png",
+        "assets/workshop/furnace_furnace-refractory-albedo.png",
+        "assets/workshop/furnace_furnace-refractory-normal.png",
+        "assets/workshop/furnace_furnace-refractory-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native furnace/crucible glow and distinct copper output on unobscured ledge; actual normal job and pickup.",
+      "preview_paths": [
+        "evidence/runs/workshop-review3/copper-working.png",
+        "evidence/runs/workshop-review3/copper-ready.png"
+      ],
+      "verification": "Native furnace/crucible glow and distinct copper output on unobscured ledge; actual normal job and pickup."
+    },
+    {
+      "group": 25,
+      "name": "Casting bench",
+      "model_ids": [
+        "casting"
+      ],
+      "functional_role": "Native tilted crucible/pour state and visible cast gear/pendant above mold; ordinary recipe jobs.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/casting.blend"
+      ],
+      "game_exports": [
+        "assets/workshop/casting.glb"
+      ],
+      "materials_textures": [
+        "assets/workshop/casting_brushed-steel-albedo.png",
+        "assets/workshop/casting_brushed-steel-normal.png",
+        "assets/workshop/casting_brushed-steel-roughness.png",
+        "assets/workshop/casting_dark-rubber-albedo.png",
+        "assets/workshop/casting_dark-rubber-normal.png",
+        "assets/workshop/casting_dark-rubber-roughness.png",
+        "assets/workshop/casting_warm-worn-ash-albedo.png",
+        "assets/workshop/casting_warm-worn-ash-normal.png",
+        "assets/workshop/casting_warm-worn-ash-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native tilted crucible/pour state and visible cast gear/pendant above mold; ordinary recipe jobs.",
+      "preview_paths": [
+        "evidence/runs/workshop-review3/gear-working.png",
+        "evidence/runs/workshop-review3/gear-ready.png",
+        "evidence/runs/workshop-review3/pendant-ready.png"
+      ],
+      "verification": "Native tilted crucible/pour state and visible cast gear/pendant above mold; ordinary recipe jobs."
+    },
+    {
+      "group": 26,
+      "name": "Metals and goods",
+      "model_ids": [
+        "ingot_copper",
+        "ingot_tin",
+        "ingot_bronze",
+        "ingot_gold",
+        "gear",
+        "polished_stone",
+        "pendant"
+      ],
+      "functional_role": "All seven distinct product variants reviewed in native ready state, normal recipes and pickup; small pendant retains authored scale.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/ingot_copper.blend",
+        "assets/editable/ingot_tin.blend",
+        "assets/editable/ingot_bronze.blend",
+        "assets/editable/ingot_gold.blend",
+        "assets/editable/gear.blend",
+        "assets/editable/polished_stone.blend",
+        "assets/editable/pendant.blend"
+      ],
+      "game_exports": [
+        "assets/workshop/ingot_copper.glb",
+        "assets/workshop/ingot_tin.glb",
+        "assets/workshop/ingot_bronze.glb",
+        "assets/workshop/ingot_gold.glb",
+        "assets/workshop/gear.glb",
+        "assets/workshop/polished_stone.glb",
+        "assets/workshop/pendant.glb"
+      ],
+      "materials_textures": [
+        "assets/workshop/gear_cast-bronze-albedo.png",
+        "assets/workshop/gear_cast-bronze-normal.png",
+        "assets/workshop/gear_cast-bronze-roughness.png",
+        "assets/workshop/ingot_bronze_cast-bronze-albedo.png",
+        "assets/workshop/ingot_bronze_cast-bronze-normal.png",
+        "assets/workshop/ingot_bronze_cast-bronze-roughness.png",
+        "assets/workshop/ingot_copper_warm-copper-albedo.png",
+        "assets/workshop/ingot_copper_warm-copper-normal.png",
+        "assets/workshop/ingot_copper_warm-copper-roughness.png",
+        "assets/workshop/ingot_gold_alluvial-gold-albedo.png",
+        "assets/workshop/ingot_gold_alluvial-gold-normal.png",
+        "assets/workshop/ingot_gold_alluvial-gold-roughness.png",
+        "assets/workshop/ingot_tin_bright-cast-tin-albedo.png",
+        "assets/workshop/ingot_tin_bright-cast-tin-normal.png",
+        "assets/workshop/ingot_tin_bright-cast-tin-roughness.png",
+        "assets/workshop/pendant_alluvial-gold-albedo.png",
+        "assets/workshop/pendant_alluvial-gold-normal.png",
+        "assets/workshop/pendant_alluvial-gold-roughness.png",
+        "assets/workshop/pendant_polished-cloudy-quartz-albedo.png",
+        "assets/workshop/pendant_polished-cloudy-quartz-normal.png",
+        "assets/workshop/pendant_polished-cloudy-quartz-roughness.png",
+        "assets/workshop/polished_stone_polished-cloudy-quartz-albedo.png",
+        "assets/workshop/polished_stone_polished-cloudy-quartz-normal.png",
+        "assets/workshop/polished_stone_polished-cloudy-quartz-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "All seven distinct product variants reviewed in native ready state, normal recipes and pickup; small pendant retains authored scale.",
+      "preview_paths": [
+        "evidence/runs/workshop-review3/copper-ready.png",
+        "evidence/runs/workshop-review3/tin-ready.png",
+        "evidence/runs/workshop-review3/bronze-ready.png",
+        "evidence/runs/workshop-review3/refined_gold-ready.png",
+        "evidence/runs/workshop-review3/gear-ready.png",
+        "evidence/runs/workshop-review3/polished-ready.png",
+        "evidence/runs/workshop-review3/pendant-ready.png"
+      ],
+      "verification": "All seven distinct product variants reviewed in native ready state, normal recipes and pickup; small pendant retains authored scale."
+    },
+    {
+      "group": 27,
+      "name": "Gem finishing",
+      "model_ids": [
+        "polisher",
+        "polished_stone",
+        "specimen"
+      ],
+      "functional_role": "Native rough workpiece and polished output on front rest; retained quartz specimen on ending display.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/polisher.blend",
+        "assets/editable/polished_stone.blend",
+        "assets/editable/specimen.blend"
+      ],
+      "game_exports": [
+        "assets/workshop/polisher.glb",
+        "assets/workshop/polished_stone.glb",
+        "assets/workshop/specimen.glb"
+      ],
+      "materials_textures": [
+        "assets/workshop/polished_stone_polished-cloudy-quartz-albedo.png",
+        "assets/workshop/polished_stone_polished-cloudy-quartz-normal.png",
+        "assets/workshop/polished_stone_polished-cloudy-quartz-roughness.png",
+        "assets/workshop/polisher_brushed-steel-albedo.png",
+        "assets/workshop/polisher_brushed-steel-normal.png",
+        "assets/workshop/polisher_brushed-steel-roughness.png",
+        "assets/workshop/polisher_dark-rubber-albedo.png",
+        "assets/workshop/polisher_dark-rubber-normal.png",
+        "assets/workshop/polisher_dark-rubber-roughness.png",
+        "assets/workshop/polisher_worn-olive-polymer-albedo.png",
+        "assets/workshop/polisher_worn-olive-polymer-normal.png",
+        "assets/workshop/polisher_worn-olive-polymer-roughness.png",
+        "assets/workshop/specimen_polished-cloudy-quartz-albedo.png",
+        "assets/workshop/specimen_polished-cloudy-quartz-normal.png",
+        "assets/workshop/specimen_polished-cloudy-quartz-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native rough workpiece and polished output on front rest; retained quartz specimen on ending display.",
+      "preview_paths": [
+        "evidence/runs/workshop-review3/polished-working.png",
+        "evidence/runs/workshop-review3/polished-ready.png",
+        "evidence/runs/package-visual01/view-09.png"
+      ],
+      "verification": "Native rough workpiece and polished output on front rest; retained quartz specimen on ending display."
+    },
+    {
+      "group": 28,
+      "name": "Contract and display",
+      "model_ids": [
+        "bench",
+        "specimen",
+        "pendant"
+      ],
+      "functional_role": "Native retained specimen and pendant ending display; all orders once-paid and completed world reload passed.",
+      "source_license": "Original project code/meshes/materials; Godot engine MIT",
+      "editable_sources": [
+        "source/main.gd",
+        "assets/editable/bench.blend",
+        "assets/editable/specimen.blend",
+        "assets/editable/pendant.blend"
+      ],
+      "game_exports": [
+        "assets/opening/bench.glb",
+        "assets/workshop/specimen.glb",
+        "assets/workshop/pendant.glb"
+      ],
+      "materials_textures": [
+        "assets/opening/bench_brushed-steel-albedo.png",
+        "assets/opening/bench_brushed-steel-normal.png",
+        "assets/opening/bench_brushed-steel-roughness.png",
+        "assets/opening/bench_warm-worn-ash-albedo.png",
+        "assets/opening/bench_warm-worn-ash-normal.png",
+        "assets/opening/bench_warm-worn-ash-roughness.png",
+        "assets/workshop/pendant_alluvial-gold-albedo.png",
+        "assets/workshop/pendant_alluvial-gold-normal.png",
+        "assets/workshop/pendant_alluvial-gold-roughness.png",
+        "assets/workshop/pendant_polished-cloudy-quartz-albedo.png",
+        "assets/workshop/pendant_polished-cloudy-quartz-normal.png",
+        "assets/workshop/pendant_polished-cloudy-quartz-roughness.png",
+        "assets/workshop/specimen_polished-cloudy-quartz-albedo.png",
+        "assets/workshop/specimen_polished-cloudy-quartz-normal.png",
+        "assets/workshop/specimen_polished-cloudy-quartz-roughness.png"
+      ],
+      "scale": "metres; Godot metre coordinates",
+      "origin_sockets": "See per-model asset-manifest sockets or engine source coordinates",
+      "collision": "Engine-authored physical bodies; per-role mesh/bounds",
+      "animations_states": "Native retained specimen and pendant ending display; all orders once-paid and completed world reload passed.",
+      "preview_paths": [
+        "evidence/runs/package-visual01/view-09.png",
+        "evidence/runs/qa-campaign23/campaign-complete.png"
+      ],
+      "verification": "Native retained specimen and pendant ending display; all orders once-paid and completed world reload passed."
+    }
+  ]
+}

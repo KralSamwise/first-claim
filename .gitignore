@@ -1,0 +1,17 @@
+.godot/
+.DS_Store
+__pycache__/
+*.pyc
+*.blend1
+builds/
+evidence/
+build-log.jsonl
+capture-log.jsonl
+.env
+.env.*
+tools/Godot.app/
+tools/*.zip
+tools/*.tpz
+tools/export-templates/
+*.ogv
+*.avi

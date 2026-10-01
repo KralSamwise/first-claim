@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "id": "river",
+      "file": "assets/audio/river.wav",
+      "source": "Original deterministic Python Foley synthesis",
+      "license": "Original project asset",
+      "duration": 12,
+      "sample_rate": 32000,
+      "peak": 0.33464832773559866,
+      "rms": 0.06545563329453451,
+      "sha256": "11d9ba932d16a150f552eab91fb33f0b1d85dabfd0025beca2d48cfa7b0280e4"
+    },
+    {
+      "id": "forest",
+      "file": "assets/audio/forest.wav",
+      "source": "Original deterministic Python Foley synthesis",
+      "license": "Original project asset",
+      "duration": 12,
+      "sample_rate": 32000,
+      "peak": 0.09126822201612093,
+      "rms": 0.01828160337815633,
+      "sha256": "d504648514ac174c3f92fb595e27bc226dcbb480c9850f1df170826a0cc9af7a"
+    },
+    {
+      "id": "water",
+      "file": "assets/audio/water.wav",
+      "source": "Original deterministic Python Foley synthesis",
+      "license": "Original project asset",
+      "duration": 1.6,
+      "sample_rate": 32000,
+      "peak": 0.334662560714156,
+      "rms": 0.08055474648643175,
+      "sha256": "ed6e4229472525ee3c4a0d3e0dafcb763df4f3fd583de6e3b2241c45cd8ef72f"
+    },
+    {
+      "id": "gravel",
+      "file": "assets/audio/gravel.wav",
+      "source": "Original deterministic Python Foley synthesis",
+      "license": "Original project asset",
+      "duration": 0.75,
+      "sample_rate": 32000,
+      "peak": 0.5748388773019296,
+      "rms": 0.12117499546009586,
+      "sha256": "309a65fefeba14db183a3b6629cd4f04925ebe086f04e43cd464e731acb1d6b6"
+    },
+    {
+      "id": "step",
+      "file": "assets/audio/step.wav",
+      "source": "Original deterministic Python Foley synthesis",
+      "license": "Original project asset",
+      "duration": 0.32,
+      "sample_rate": 32000,
+      "peak": 0.4232368868609163,
+      "rms": 0.10185018287210959,
+      "sha256": "78fd64cc2886c59fc30f0c68611049b088f2d51382f13dd1a759d8dbe56e772b"
+    },
+    {
+      "id": "wood",
+      "file": "assets/audio/wood.wav",
+      "source": "Original deterministic Python Foley synthesis",
+      "license": "Original project asset",
+      "duration": 0.55,
+      "sample_rate": 32000,
+      "peak": 0.5910735997867598,
+      "rms": 0.07176342076517284,
+      "sha256": "515e3f469d5a7b2979dfe32a1409c3541eee6cf32c3bbc4710c3e2c89b8292a9"
+    },
+    {
+      "id": "rock",
+      "file": "assets/audio/rock.wav",
+      "source": "Original deterministic Python Foley synthesis",
+      "license": "Original project asset",
+      "duration": 0.6,
+      "sample_rate": 32000,
+      "peak": 0.5907594162644454,
+      "rms": 0.040421191899059614,
+      "sha256": "f64cb788c213b67b5aa161af927349fede4d0137d5f084152f04eca94194ea7d"
+    },
+    {
+      "id": "gold",
+      "file": "assets/audio/gold.wav",
+      "source": "Original deterministic Python Foley synthesis",
+      "license": "Original project asset",
+      "duration": 0.42,
+      "sample_rate": 32000,
+      "peak": 0.27794307483845304,
+      "rms": 0.039029382810854184,
+      "sha256": "fef2cb2844c25d8c4d4dbba596b7dedd57045ffea7aa1b1e91830fbed7afbb94"
+    },
+    {
+      "id": "pour",
+      "file": "assets/audio/pour.wav",
+      "source": "Original deterministic Python Foley synthesis",
+      "license": "Original project asset",
+      "duration": 1.8,
+      "sample_rate": 32000,
+      "peak": 0.31026080151256086,
+      "rms": 0.07389469729948638,
+      "sha256": "bebde9ca63fb0251cf961a3ffd3011534d83913b68b9ff2202ad121196ee6402"
+    },
+    {
+      "id": "creak",
+      "file": "assets/audio/creak.wav",
+      "source": "Original deterministic Python Foley synthesis",
+      "license": "Original project asset",
+      "duration": 1.15,
+      "sample_rate": 32000,
+      "peak": 0.2236403450695865,
+      "rms": 0.0745086354391066,
+      "sha256": "622050753684bce2b0e4fd0e2dd5560a024c87d270c9343f0799c1939a67c4f5"
+    },
+    {
+      "id": "fall",
+      "file": "assets/audio/fall.wav",
+      "source": "Original deterministic Python Foley synthesis",
+      "license": "Original project asset",
+      "duration": 1.4,
+      "sample_rate": 32000,
+      "peak": 0.5522841938340275,
+      "rms": 0.059787858356406785,
+      "sha256": "b54cf7ba1d1795ee15a4e6f5628ff93c3a1607453861c107ebf1780a24a0d393"
+    }
+  ]
+}
