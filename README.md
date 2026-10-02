@@ -40,7 +40,7 @@ Settings include simple panning, reduced motion, mouse sensitivity, volume contr
 
 ## Build something cool with us
 
-Fork the repo, try an idea, and open a pull request. You can also [report a bug or propose an improvement](https://github.com/KralSamwise/first-claim/issues).
+Fork the repo, try an idea, and open a pull request. You can also [report a bug or propose an improvement](https://github.com/everyoneneedsasamwise/first-claim/issues).
 
 Useful places to start:
 
